@@ -1,0 +1,13 @@
+#grid {
+  display: grid;
+
+  grid-template-areas: "head head"
+                       "nav  main"
+                       "foot .   "
+  }
+  #grid > header { grid-area: head; }
+  #grid > nav    { grid-area: nav; }
+  #grid > main   { grid-area: main; }
+  #grid > footer { grid-area: foot; }
+
+#grid > * { border: 1px solid; }
