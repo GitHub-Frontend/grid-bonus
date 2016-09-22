@@ -1,0 +1,22 @@
+.grid {
+  margin: 0 auto;
+    display: grid;
+    /*width: 500px;*/
+    grid-template-columns: 125px [first colum] 200px [centr] 175px[last colum];
+    grid-template-rows: [first header] 50px [main] 1fr [footer] 2fr [last];
+    }
+.gird{ border: 5px solid black;
+}
+
+.grid> div{
+  border: 5px solid black;
+}
+.grid .white {
+  background: white;
+}
+.grid .yellow {
+  background: yellow;
+}
+.grid .red {
+  background: red;
+}
